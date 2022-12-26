@@ -34,7 +34,7 @@ function App() {
   };
   const resetQuantity = () => {
     let newProductList = [...productList];
-    newProductList.foreach((products) => {
+    newProductList.forEach((products) => {
       products.quantity = 0;
     });
     setProductList(newProductList);
